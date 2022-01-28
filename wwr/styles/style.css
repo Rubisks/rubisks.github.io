@@ -1,0 +1,61 @@
+
+
+#content{
+    max-width: 1600px;
+    display: block; 
+    margin: 0 auto;
+}
+
+.logo{
+    width: 80px;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}  
+
+.home-grid{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+
+ #hero_box{
+    text-align: center;
+    margin:0 auto;
+}
+
+.button-box{
+    text-align: center;
+}
+
+
+
+body{
+    background-color: #A5DBF2;
+}
+
+Header{
+    background-color: #21B3EA ;
+}
+
+#background{
+    height: 725px;
+    background-color: #21B3EA ;
+}
+
+nav a:hover{
+    background-color: #29B3CF ;
+    color: black;
+}
+.book{
+    color: black;
+    text-decoration: none;
+}
+
+.foot{
+    color: black;
+    text-decoration: none;
+}
