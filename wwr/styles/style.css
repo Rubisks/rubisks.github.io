@@ -36,13 +36,13 @@ nav a {
 }  
 
 nav a:hover{
-    background-color: #29B3CF ;
+    background-color: var(--accent1-color) ;
     color: black;
 }
 
 #background{
     height: 725px;
-    background-color: #21B3EA ;
+    background-color: var(--primary-color) ;
 }
 
 .icon {
@@ -50,7 +50,7 @@ nav a:hover{
 }
 
 Header{
-    background-color: #21B3EA ;
+    background-color:var(--primary-color) ;
 }
 
 #hero_img{
@@ -85,7 +85,7 @@ Header{
     font-size: 18px;
     padding: 15px 30px;
     border-radius: 5px;
-    background-color: #29B3CF;
+    background-color: var(--accent1-color);
     margin-top: 50px;
 }
 
@@ -94,7 +94,7 @@ main section img {
 }
 
 body{
-    background-color: #A5DBF2;
+    background-color: var(--secondary-color);
     font-family: var(--paragraph-font);
     font-size: 22px;
     margin: 0;
@@ -105,11 +105,11 @@ body{
     margin: 200px 0;
 }  
 .card-img{
-    border: 10px solid #21B3EA ;
+    border: 10px solid var(--primary-color) ;
 }
 
 .msg{
-    background-color: #29B3CF;
+    background-color: var(--accent1-color);
     line-height: 1.5em;
     padding: 35px;
 }
