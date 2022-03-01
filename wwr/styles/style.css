@@ -241,8 +241,10 @@ footer .social img{
 
 
 .booking{
+    background-color:rgba(33,179,234, .3);
     color: white;
-    font-family: var(--heading-font);
+    font-family: var(--paragraph-font);
+    text-align: center;
     grid-column: 2/4;
     grid-row: 1/2;
     padding: 30px;
@@ -271,6 +273,14 @@ footer .social img{
 
 }
 
+.post-text{
+    font-family: var(--paragraph-font);
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 20px;
+    width: 90%;
+}
+
 .encounters-title{
     font-family: var(--heading-font);
     background-color: var(--primary-color);
@@ -278,16 +288,17 @@ footer .social img{
 }
 
 .scorpions-card{
+    display: inline-block;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #21B3EA;
 }
 .scorpion-pic{
-    padding: 20px;
     margin: 0 auto;
     grid-column: 1/2;
     width: 75%;
     z-index: 0;
+    padding-bottom: 50px;
 }
 .scorpion-discription{
     grid-column: 2/3;
@@ -309,7 +320,7 @@ z-index: 1;
     background-color: #21B3EA;
 }
 .bighorn-pic{
-    padding: 20px;
+    padding-bottom: 50px;
     margin: 0 auto;
     grid-column: 1/2;
     width: 75%;
