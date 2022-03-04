@@ -281,7 +281,7 @@ footer .social img{
     padding-top: 50px;
 }
 
-.hightile{
+.highlights-title{
     text-align: center;
     grid-column: 1/3;
     grid-row: 1/2;
@@ -360,7 +360,6 @@ padding-bottom: 50px;
     margin: 0 auto;
     grid-column: 1/2;
     width: 75%;
-    z-index: 0;
 }
 .bighorn-discription{
     grid-column: 2/3;
@@ -417,6 +416,73 @@ padding-bottom: 50px;
     footer {
         margin-top: 25px;
     }
- 
 
+    /*below is css for the blog page*/
+
+    .content{
+        display: block;
+        height: auto;
+    }
+    .blogheroimg{
+        margin-top: 0;
+    }
+    .title{
+        font-size: 26px;
+        margin-top: 0%;
+    }
+    .book-title{
+        font-size: 20px;
+    }
+    .book-btn{
+        font-size: 10px;
+    }
+
+    .highlights-title{
+        font-size: 30px;
+    }
+
+    .highlights{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        
+    }
+    .imgHiglights{
+        display:block;
+        margin:auto;
+        max-width:70%;
+        height:auto;
+    }
+
+    .encounters{
+        display: block;
+        height: auto;
+    }
+
+    .encounters-title{
+        font-size: 30px;
+    }
+    .scorpions-card{
+        display: block;
+        height: auto;
+    }
+    .scorpion-pic{
+        display:block;
+        margin:auto;
+        max-width:70%;
+        height:auto;
+    }
+
+
+    .bighorn-card{
+        display: block;
+        height: auto;
+    }
+
+    .bighorn-pic{
+        display:block;
+        margin:auto;
+        max-width:70%;
+        height:auto;
+    }
 }
