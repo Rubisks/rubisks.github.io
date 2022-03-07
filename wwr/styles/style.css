@@ -38,7 +38,7 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
-    padding: 35px;
+    padding: 25px;
 }  
 
 nav a:hover{
@@ -203,7 +203,6 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
 footer .social img{
