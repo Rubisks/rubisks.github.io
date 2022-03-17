@@ -1,0 +1,55 @@
+.slideshow-box{
+    height: 700px;
+    position: relative;
+    margin: auto;
+}
+
+.slides{
+    display: none;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .next{
+      right: 0;
+  }
+
+  .slideText{
+      margin: auto;
+      display: inline;
+      color: blue;
+      text-align: center;
+      top: 40%;
+      margin-left: -60%;
+      position: absolute;
+      font-size: 50px;
+      z-index: 2;
+  }
+
+  /* current project on home page*/
+  .current-project{
+      display: grid;
+      grid-template-columns: 1fr 20px 1fr;
+      display: block;
+      margin: 100px;
+  }
+
+  .current-project h1, p{
+      grid-column: 1/2;
+        ont-size: 100px;
+  }
+
+  .slideshow-box{
+      grid-column: 3/5;
+  }

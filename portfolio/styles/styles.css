@@ -23,10 +23,12 @@
 
 }
 
+/* Headder and footer css */
 header{
     display: grid;
     grid-template-columns: 150px auto;
     background-color: var(--nav-background-color);
+    text-align: center;
 }
 
 .logo{
@@ -71,3 +73,100 @@ footer h3 a{
     text-decoration: none;
     color: black;
 }
+
+/* End of header and footer */
+
+/* Home Page CSS */
+
+  /* current project on home page*/
+  .current-project{
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+}
+
+.current-project h1, p{
+    grid-column: 1/2;
+    vertical-align: middle;
+}
+.current-project h1{
+    text-align: center;
+}
+
+.slideshow-box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 3/4;
+    width: 100%;
+}
+.slide{
+    margin: auto;
+    padding: 30px;
+}
+
+.prev{
+    left: 0; 
+}
+.left-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    grid-column: 2/3;
+    cursor: pointer;
+    margin: 0 auto;
+    width: auto;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 25px;
+    user-select: none;
+}
+
+/* recent projects CSS */
+
+.recent{
+    background-color: #0D86BA;
+}
+
+.poject-card-1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.poject-card-1 img {
+    grid-column: 1/2;
+    width: 100%;
+}
+
+.poject-card-1 h1,.poject-card-1 p {
+    grid-column: 2/3;
+}
+
+.poject-card-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.poject-card-2 img {
+    grid-column: 1/2;
+    width: 100%;
+}
+
+.poject-card-2 h1,.poject-card-2 p {
+    grid-column: 2/3;
+}
+.project-title{
+    text-align: center;
+}
+
+.project-text{
+    padding: 20px;
+}
+
+
+
+
+
+
+/* End of Home Page CSS */
