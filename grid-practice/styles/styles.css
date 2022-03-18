@@ -36,4 +36,19 @@
     margin-right: auto;
     width: 70%;
     border-radius: 0 0 10px 10px;
+    z-index: 0;
+}
+
+/* new project bage*/
+.badge-new{
+    z-index: 1;
+}
+.badge-new p{
+    width: 10px;
+    font-weight: bolder;
+}
+
+.fa-solid {
+    color: gold;
+    font-size: 100px;
 }
