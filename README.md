@@ -1,1 +1,0 @@
-# rubisks.github.io happy day!
