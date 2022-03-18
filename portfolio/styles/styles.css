@@ -75,6 +75,11 @@ footer h3 a{
 }
 
 /* End of header and footer */
+.content{
+    max-width: 1700px;
+    display: block; 
+    margin: 0 auto;
+}
 
 /* Home Page CSS */
 
