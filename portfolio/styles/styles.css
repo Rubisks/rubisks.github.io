@@ -26,20 +26,52 @@
 /* Headder and footer css */
 header{
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 600px 100px 940px;
     background-color: var(--nav-background-color);
+    background-image: linear-gradient(to right,#69B50D, #0A1B7D);
     text-align: center;
+    height: 75px;
+    border-radius: 10px;  
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+/* Main content */
+
+main{
+    margin-top:70px;
+}
+
+body{
+    background-color: grey;
 }
 
 .logo{
-    width: 80px;
+    width: 60px;
 }
 
+header p{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    font-size: 40px ;
+    font-family: var(--heading-font);
+    margin-top: 10px; 
+    text-align: start;
+    color: black;
+ }
+
 #logo-link {
+    grid-row: 1/2;
+    grid-column: 2/3;
     padding-top: 5px;
-    justify-self: center;
-    align-self: center;
+    padding-right: 10px;
+    
 }  
+.nav-links{
+    grid-column: 1/2;
+    margin-top: 25px; 
+}
 
 nav a{
     font-family: var(--paragraph-font);
@@ -50,14 +82,15 @@ nav a{
     padding: 25px;
 }
 
-nav{
-    display: flex;
-}
+
 
 nav a:hover{
-    background-color: var(--nav-hover-background-color);
+    background-color: rgba(90, 90, 90, 0.192);
     color: aliceblue;
+
 }
+
+/* footer css */
 
 footer{
     background-color: var(--nav-background-color);
@@ -76,12 +109,19 @@ footer h3 a{
 
 /* End of header and footer */
 
+#content{
+    max-width: 1600px;
+    display: block; 
+    margin: 0 auto;
+}
+
 /* Home Page CSS */
 
   /* current project on home page*/
   .current-project{
     display: grid;
     grid-template-columns: 1fr 100px 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .current-project h1, p{
@@ -90,6 +130,13 @@ footer h3 a{
 }
 .current-project h1{
     text-align: center;
+    grid-row: 2/3;
+}
+
+.current-project p{
+    grid-row: 3/4;
+    width: 75%;
+    padding-left: 50px;
 }
 
 .slideshow-box{
@@ -97,11 +144,17 @@ footer h3 a{
     margin-left: auto;
     margin-right: auto;
     grid-column: 3/4;
+    grid-row: 1/5;
     width: 100%;
+    height: 1000px;
+    
 }
-.slide{
+.working-img{
     margin: auto;
     padding: 30px;
+    width: 100%;
+    max-height: 900px;
+    vertical-align: middle;
 }
 
 .prev{
@@ -122,34 +175,54 @@ footer h3 a{
     font-size: 25px;
     user-select: none;
 }
+/*hero image*/
+.hero{
+    width: 100%;
+}
+.hero-img{
+    width: 100%;
+    margin-top: -10px;
+    z-index: -1;
+}
 
 /* recent projects CSS */
 
 .recent{
-    background-color: #0D86BA;
+    background-color: #0A1B7D;
+    color: white;
 }
 
 .poject-card-1{
     display: grid;
+    box-shadow: 5px 5px 10px 2px rgba(58, 58, 58, .5);
+    padding: 20px;
+    margin-top: 25px;
     grid-template-columns: 1fr 2fr;
 }
 
 .poject-card-1 img {
     grid-column: 1/2;
-    width: 100%;
+    padding: 20px;
+    width: 80%;
 }
 
 .poject-card-1 h1,.poject-card-1 p {
     grid-column: 2/3;
 }
 
+
+
 .poject-card-2{
     display: grid;
+    padding: 20px;
+    margin-top: 25px;
+    box-shadow: 5px 5px 10px 2px rgba(58, 58, 58, .5);
     grid-template-columns: 1fr 2fr;
 }
 
 .poject-card-2 img {
     grid-column: 1/2;
+    padding: 20px;
     width: 100%;
 }
 

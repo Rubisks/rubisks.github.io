@@ -7,105 +7,112 @@
     <link type="text/css" rel="stylesheet" href="styles/styles.css">
     <title>Document</title>
 </head>
+
+
 <body>
+    <div id="content">
+        <header>
 
-    <header>
+            <a id="logo-link" href="index.html">
+                <img class="logo" src="pictures/logo100px.png" alt="Dry Oar Logo">
+            </a>
+            <P>
+                Just a Portfolio
+            </P>
 
-        <a id="logo-link" href="index.html">
-            <img class="logo" src="pictures/logo100px.png" alt="Dry Oar Logo">
-        </a>
+            <nav class="nav-links">
+                <a href="index.html">Home <i class="fa-solid fa-house"></i></a>
+                <a href="projects.html">All Projects <i class="fa-solid fa-list"></i></a>
+                <a href="contact.html">Contact Me <i class="fa-solid fa-envelope"></i></a>
+            </nav>
 
-        <nav class="vav-links">
-            <a href="index.html">Home <i class="fa-solid fa-house"></i></a>
-            <a href="projects.html">All Projects <i class="fa-solid fa-list"></i></a>
-            <a href="contact.html">Contact Me <i class="fa-solid fa-envelope"></i></a>
-        </nav>
+        </header>
 
-    </header>
+        <main >
 
-    <main>
+            <div class="current-project">
+                <h1>
+                    Current Working Project
+                </h1>
 
-        <div class="current-project">
-            <h1>
-                Current Working Project
-            </h1>
+                <p>
+                    Follow me as I create a website from the ground up. I will be creating a website to show of my personal tech projects. It will be a website hosted on git hub and will show you how to get a website started on that platform. I have already created the repository on GitHub where the code is stored. Currently I am structuring the html for the website. The next step will be taking on the CSS and other function of the site. 
+                </p>
 
-            <p>
-                Follow me as I create a website from the ground up. I will be creating a website to show of my personal tech projects. It will be a website hosted on git hub and will show you how to get a website started on that platform. I have already created the repository on GitHub where the code is stored. Currently I am structuring the html for the website. The next step will be taking on the CSS and other function of the site. 
-            </p>
-
-            <!-- images for slide show contained here-->
-            <div class="slideshow-box">
-                <div class="slide">
-                    <img class="working-img" src="pictures/home-screen.png" alt="wire frame of website home page">
-                </div>
-                <div class="slide">
-                    <img class="working-img" src="pictures/contact-screen.png" alt="wire frame of website contact page">
-                </div>
+                <!-- images for slide show contained here-->
+                <div class="slideshow-box">
                     <div class="slide">
-                <img class="working-img" src="pictures/all-projects.png" alt="wire frame of website projects page">
+                        <img class="working-img" src="pictures/home-screen.png" alt="wire frame of website home page">
+                    </div>
+                    <div class="slide">
+                        <img class="working-img" src="pictures/contact-screen.png" alt="wire frame of website contact page">
+                    </div>
+                        <div class="slide">
+                    <img class="working-img" src="pictures/all-projects.png" alt="wire frame of website projects page">
+                    </div>
+                    <!-- Next and previous buttions-->
+
                 </div>
-                <!-- Next and previous buttions-->
+
+                    <div class="left-right">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
 
             </div>
 
-                <div class="left-right">
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <h2 class="recent"> Recent projects</h2>
+
+            <div class="recent-list">
+                <div class="poject-card-1">
+                    <h1 class="project-title">
+                        4x4x4 Arduino Powered LED Cube
+                    </h1>
+                    <img src="pictures/4x4ledCube.jpeg" alt="">
+                    <p class="project-text">
+                        Building this LED cube is a difficult fun enjoyable process. The result is worth it. Designing and building your own LED cube can be difficult hopefully this can help you in your path. Building this art peace will help you learn many skills that will help in many future projects. Many tools are needed for this project and are listed in the project page. 
+                    </p>
                 </div>
 
-        </div>
+                <div class="poject-card-2">
+                    <h1 class="project-title">
+                        Diy Benchtop Power Supply
+                    </h1>
+                    <img src="pictures/powerSupplyFront.jpeg" alt=" the screen and controlls for a DIY benchtop power supply">
+                    <p class="project-text">
+                        A benchtop power supply is useful for anyone wanting to start a hobby in electronics. This power supply was made with a soldering iron and a few parts off amazon. This would be a great beginning project and adds a tool that you can use for future projects. To build the enclosure I used a 3D printer however you can use either some acrylic or some wood and some hand tools to build a encloser for the electronics
+                    </p>
 
+                </div>
 
-        <h2 class="recent"> Recent projects</h2>
+                <div class="poject-card-?">
+                    <h1 class="project-title">
 
-        <div class="recent-list">
-            <div class="poject-card-1">
-                <h1 class="project-title">
-                    4x4x4 Arduino Powered LED Cube
-                </h1>
-                <img src="pictures/4x4ledCube.jpeg" alt="">
-                <p class="project-text">
-                    Building this LED cube is a difficult fun enjoyable process. The result is worth it. Designing and building your own LED cube can be difficult hopefully this can help you in your path. Building this art peace will help you learn many skills that will help in many future projects. Many tools are needed for this project and are listed in the project page. 
-                </p>
+                    </h1>
+                    <img src="" alt="">
+                    <p>
+
+                    </p>
+
+                    <p>
+
+                    </p>
+                </div>
             </div>
 
-            <div class="poject-card-2">
-                <h1 class="project-title">
-                    Diy Benchtop Power Supply
-                </h1>
-                <img src="pictures/powerSupplyFront.jpeg" alt=" the screen and controlls for a DIY benchtop power supply">
-                <p class="project-text">
-                    A benchtop power supply is useful for anyone wanting to start a hobby in electronics. This power supply was made with a soldering iron and a few parts off amazon. This would be a great beginning project and adds a tool that you can use for future projects. To build the enclosure I used a 3D printer however you can use either some acrylic or some wood and some hand tools to build a encloser for the electronics
-                </p>
-
-            </div>
-
-            <div class="poject-card-1">
-                <h1 class="project-title">
-
-                </h1>
-                <img src="" alt="">
-                <p>
-
-                </p>
-
-                <p>
-
-                </p>
-            </div>
-        </div>
-
-    </main>
+        </main>
 
 
-    <footer class="foot">
+        <footer class="foot">
 
-        <h3>Just a Portfolio: 2022 - Tucker Strand</h3>
-        <h3><a href="site-plan.html">Site Plan</a></h3>
-        <h3><a href="contact.html">Contact Me</a></h3>
+            <h3>Just a Portfolio: 2022 - Tucker Strand</h3>
+            <h3><a href="site-plan.html">Site Plan</a></h3>
+            <h3><a href="contact.html">Contact Me</a></h3>
 
-    </footer>
+        </footer>
+
+    </div>
     
 </body>
 
