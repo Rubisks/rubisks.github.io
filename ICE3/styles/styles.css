@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+    
+}
+
+.X {
+    text-align: right;
+    font-family:Signika ;
+}
+
+img{
+    width: 100%;
+}
+
+.how{
+    font-family: Signika;
+    font-weight: 700;
+    font-size: 500%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.do{
+    font-family: Signika;
+    font-weight:500%;
+    width: 440px;
+    margin: 0 auto;
+}
+
+.sub{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    height: 50px;
+}
+button{
+    width: 100%;
+    font-weight:200px;
+}
+
+.right{
+    text-align: center;
+    width: 100%;
+}
+.name{
+    border-radius: 5px;
+    border-color: grey;
+    width: 40%;
+    height: 30px;
+}
+.email{
+    margin: 10px;
+    border-radius: 5px;
+    width: 40%;
+    height: 30px;
+}
+#news{
+    margin: 10px;
+}
+.sub{
+    margin: 10px;
+}

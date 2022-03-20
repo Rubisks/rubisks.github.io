@@ -1,0 +1,62 @@
+.content{
+    max-width: 1700;
+}
+
+
+/* grid settings for projects */
+.grid-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* styles for each project card */
+.project-card{
+    width: 100%;
+    border-radius: 10px ;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+/* project titl e*/
+.project-card h1{
+    text-align: center;
+    margin-bottom: 0;
+    background-color: aquamarine;
+    border-radius: 10px 10px 0 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* project images */
+.project-card img{
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 0 0 10px 10px;
+    z-index: 0;
+}
+
+/* new project bage*/
+.badge-text{
+    width: 10px;
+    text-align: center;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 2;
+    top: 315px;
+    left: 60px;
+}
+
+.fa-solid {
+    color: gold;
+    font-size: 100px;
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    left: 30px;
+}
