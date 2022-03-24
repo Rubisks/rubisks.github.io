@@ -59,6 +59,7 @@ body{
 }
 .photocard footer .love{
     justify-self: end;
+    font-weight: bold;
 }
 .photocard footer i{
     font-size: 0.85em;
