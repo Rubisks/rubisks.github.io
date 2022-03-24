@@ -34,62 +34,54 @@
 /* Headder and footer css */
 .header{
     display: grid;
-    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-columns: .25fr 1fr 3fr;
     background-color:white;
-    text-align: center;
     border-radius: 10px;
     height: 75px ;
     z-index: 1;
 }
-
 .logo{
     width: 80px;
 }
-
 #logo-link {
     padding-top: 5px;
 }  
-
 .site-title{
     font-family: var(--heading-font);
     color: black;
-    font-size: 2.5vw;
+    font-size: 40px;
     text-align: left;
-    margin-top: 25px;
+    margin-top: 10px;
 }
-
 nav a{
-    
     font-family: var(--paragraph-font);
-    font-size: 2vw;
-    text-align: left;
+    font-size: 20px;
     color: black;
     text-decoration: none;
     padding: 25px;
 }
-
 nav a:hover{
     background-color: #0D86BA;
     color: aliceblue;
 }
 .nav-links{
     margin-top: 25px;
-    z-index: 1;
+    left: 0;
 }
-
+/* footer css */
 footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
 footer h3 a, footer h3 a{
     text-align: center;
     text-decoration: none;
     color: black;
 }
-
 /* End of header and footer */
+
+/* content formating for every page */
 .content{
     max-width: 1700px;
     display: block; 
@@ -97,8 +89,7 @@ footer h3 a, footer h3 a{
 }
 
 /* Home Page CSS */
-/*hero page config*/
-
+/* hero page config */
 .hero{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -117,12 +108,9 @@ footer h3 a, footer h3 a{
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: 1; 
-    background-image: linear-gradient(to bottom,#ffffff00, #ffffff );
-
-    
+    background-image: linear-gradient(to bottom,#ffffff00, #ffffff );  
 }
-.welcome{
-    
+.welcome{ 
     grid-column: 2/3;
     grid-row: 1/2;
     margin-left: auto;
@@ -131,8 +119,7 @@ footer h3 a, footer h3 a{
     color: aliceblue;
     font-size: 4vw;
 }
-
-/*settings for intro message*/
+/* settings for intro message */
 .intro-msg{
     margin-top: 50vw;
     text-align: center;
@@ -144,12 +131,10 @@ footer h3 a, footer h3 a{
     grid-row: 1/2;
     z-index: 1;
     font-size: 2vw;
-
 }
 .projects-title{
     font-family: var(--heading-font);
     font-size: 2vw;
-
 }
 /* grid settings for projects */
 .grid-box{
@@ -157,9 +142,7 @@ footer h3 a, footer h3 a{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin-left: auto;
     margin-right: auto;
-
 }
-
 /* styles for each project card */
 .project-card{
     width: 100%;
@@ -167,15 +150,16 @@ footer h3 a, footer h3 a{
     position: relative;
     margin-top: 20px;
     margin-bottom: 50px;
-
 }
 /* project title */
 .project-card h1{
     font-family: var(--heading-font);
     text-align: center;
-    font-size: 2vw;
+    font-size: 30px;
     margin-bottom: 0;
-    background-color: #69B50D;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: var(--accent1-color);
     border-radius: 10px 10px 0 0;
     width: 70%;
     margin-left: auto;
@@ -191,7 +175,6 @@ footer h3 a, footer h3 a{
     border-radius: 0 0 10px 10px;
     z-index: 0;
 }
-
 /* new project bage*/
 .badge-text{
     width: 10px;
@@ -203,7 +186,6 @@ footer h3 a, footer h3 a{
     left: 3.5vw;
     z-index: 2;
 }
-
 .fa-certificate {
     color: gold;
     font-size: 6vw;
@@ -212,5 +194,64 @@ footer h3 a, footer h3 a{
     bottom: 5vw;
     left: 1.5vw;
 }
-
 /* End of Home Page CSS */
+
+/*  contact page CSS */
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr;
+    margin: 0 auto;
+    font-family: var(--paragraph-font);
+}
+.contact-grid img{
+    margin: auto;
+    width: 70%;
+    grid-row: 1/4;
+    padding: 30px;
+}
+.contact-title{
+    font-size: 30px;
+    text-align: center;
+}
+.contact-text{
+    padding: 50px;
+}
+#feedback{
+    grid-column: 2/3; 
+    margin: 0 auto;
+}
+form ul{
+    list-style: none;
+}
+form ul li{
+    padding: 10px;
+}
+/* end of contact page css */
+
+/* all projects page css */
+.all-projects-title{
+    font-family: var(--heading-font);
+    font-size: 40px;
+}
+.all-projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.all-projects img{
+    border-radius: 0;
+}
+.all-projects .project-text{
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: var(--paragraph-font);
+    font-size: 18px;
+    background-color: #0D86BA;
+    margin-top: -2px;
+    border-radius:0 0 10px 10px;
+}
+/* end of all projects page css */
