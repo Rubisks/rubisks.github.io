@@ -108,7 +108,7 @@ footer h3 a, footer h3 a{
     grid-column: 1/4;
     grid-row: 1/2;
     z-index: 1; 
-    background-image: linear-gradient(to bottom,#ffffff00, #ffffffc9 );
+    background-image: linear-gradient(to bottom,#ffffff00, #fffffffd );
     height: 700px;  
 }
 .welcome{ 
@@ -133,14 +133,18 @@ footer h3 a, footer h3 a{
 }
 
 /* home page learning and required tools section CSS*/
+.learning{
+    margin: 100px 0 100px 0;
+}
 
 .learning-card{
     width: 700px;
     font-family: var(--paragraph-font);
     padding: 20px;
-    margin: 30px  0 30px  0;
+    margin: 70px  0 70px  0;
     background-color: #0a1b7d3a;
     border-radius: 10px;
+    box-shadow: 5px 10px 15px #0a1b7d59;
 }
 .learning-card p{
     font-size: 20px;
@@ -151,11 +155,13 @@ footer h3 a, footer h3 a{
     align-self: center;
     color: #0A1B7D;
     text-align: center;
+    
 }
 
 .tools-card{
     display: grid;
-    grid-template-columns: 100px auto;
+    grid-template-columns: 200px auto;
+    margin-left: 733px;
 } 
 .tools-card p{
     grid-column: 2/3;
@@ -168,8 +174,9 @@ footer h3 a, footer h3 a{
 
 .computer-card{
     display: grid;
-    grid-template-columns: auto 100px;
+    grid-template-columns: auto 200px;
     left: 1000px;
+    margin-left: 230px;
 } 
 .computer-card p{
     grid-column: 1/2;
@@ -183,7 +190,8 @@ footer h3 a, footer h3 a{
 
 .brain-card{
     display: grid;
-    grid-template-columns: 100px auto;
+    grid-template-columns: 200px auto;
+    margin-left: 733px;
 } 
 .brain-card p{
     grid-column: 2/3;
