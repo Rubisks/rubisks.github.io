@@ -32,14 +32,25 @@
 /* Headder and footer css */
 .header{
     display: grid;
-    margin-left:  50px;
     grid-template-columns: .25fr 20em 3fr;
     background-color:white;
     height: 95px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    z-index: 4;
+    width:  100%;   
+    margin-right: 50px;
+}
+.header .spacer{
+    margin-top: -35px;
+    grid-column: 1/4;
+    width:  1700px; 
+    margin-right: 50px;
     
 }
 .logo{
     width: 80px;
+    padding-left:  50px;
 }
 #logo-link {
     align-self: center;
@@ -50,6 +61,7 @@
     font-size: 40px;
     text-align: left;
     align-self: center;
+    z-index: 4;
 }
 nav a{
     font-family: var(--paragraph-font);
@@ -57,11 +69,13 @@ nav a{
     color: black;
     text-decoration: none; 
     padding: 25px;
+    z-index: 3;
 }
 nav a:hover{
     background-color: #0D86BA;
     border-radius: 10px;
     color: aliceblue;
+    height: 20px;
     
 }
 .nav-links{
@@ -90,6 +104,7 @@ main{
     max-width: 1700px;
     display: block; 
     margin: 0 auto;
+    margin-top: 100px;
 }
 
 /* Home Page CSS */
@@ -220,7 +235,7 @@ main{
 }
 /* styles for each project card */
 .project-card{
-    width: 70%;
+    width: 80%;
     border-radius: 10px;
     display: grid;
     grid-template-columns: auto;
