@@ -44,7 +44,7 @@
 .header .spacer{
     margin-top: -35px;
     grid-column: 1/4;
-    width:  1700px; 
+    width:  100%;
     margin-right: 50px;
     
 }
@@ -355,4 +355,105 @@ form ul li{
     margin-top: -2px;
     border-radius:0 0 10px 10px;
 }
-/* end of all projects page css */
+/* end of all projects page css */@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    .header{
+        display: block;
+        text-align: center;
+        position: relative;
+        margin-bottom: 350px;
+    }
+    .logo{
+        margin: 0 auto;
+        padding: 0;
+    }
+    .site-title{
+        text-align: center;
+    }
+    .header .spacer{
+        margin-top: 10px;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+        text-align: center;
+    }
+    .hero .intro,.hero .hero-pic, .hero{
+        height: 400px;
+    }
+    .hero p{
+        margin-top: -100px;
+        font-size: 15px;
+    }
+    .learning{
+        display: block;
+        margin: 0 auto;
+    }
+    .learning-card{
+        margin: 0 auto;
+        width: 500px;
+    }
+    .learning h1{
+        font-size: 25px;
+    }
+    .learning-card .fa-solid{
+        font-size: 40px;
+    }
+    .learning-card p{
+        font-size: 14px;
+    }
+    .grid-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    .projects-title{
+        margin-top: 70px;
+        
+    }
+    .project-card{
+        width: 80%
+    }
+    .all-projects-title{
+        text-align: center;
+    }
+    .project-card h1{
+        font-size: 20px;
+    }
+    .all-projects{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+        gap: 0px;
+    }
+    .all-projects .project-card .project-text{
+        font-size: 14px;
+
+    }
+    .contact-grid{
+        display: block;
+        margin: 0 auto;
+    }
+    .contact-grid img{
+        padding: 0;
+        margin: 80px;
+    }
+    .contact-title{
+        font-size: 20px;
+    }
+    .contact-text{
+        font-size: 12px;
+    }
+    .feedback{
+        margin: 0 100px;
+        text-align: center;
+    }
+
+
+    footer {
+        margin-top: 25px;
+    }
+
+}
